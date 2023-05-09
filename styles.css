@@ -107,3 +107,35 @@ body{
     font-size: 20px;
     padding: 8px; 
 }
+
+.experience_img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+}
+
+.projects_table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: rgb(199, 186, 213);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  table, th, td {
+    border: 1px solid rgb(199, 186, 213);
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+.project_title h1{
+    margin-top: 20px;
+    color: rgb(199, 186, 213);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
+    text-align: center;
+}
