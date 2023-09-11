@@ -6,7 +6,7 @@
   "homepage": "http://ranjani-codes.github.io/ranjani-codes.github.io",
   "scripts": {
     "dev": "vite",
-    "build": "webpack --mode production",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",

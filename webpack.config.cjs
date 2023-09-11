@@ -1,5 +1,4 @@
-import path from 'path';
-
+const path = require('path');
 
 module.exports = {
   entry: './src/main.jsx', // Your main JSX file
