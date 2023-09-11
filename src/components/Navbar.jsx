@@ -21,7 +21,7 @@ const Navbar = () => {
           }}
         >
           {/*<img src={logo} alt="logo" className="w-9 h-9 object-contain" />*/}
-          <p className="text-white text-[18px] font-normal cursor-pointer flex">
+          <p className="text-white text-[24px] font-normal cursor-pointer flex">
             ranjani<span className="font-extrabold sm:block hidden">Codes</span>
           </p>
         </Link>
