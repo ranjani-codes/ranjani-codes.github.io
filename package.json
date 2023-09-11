@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://ranjani-codes.github.io/",
+  "homepage": "http://ranjani-codes.github.io/ranjani-codes.github.io",
   "scripts": {
     "dev": "vite",
     "build": "webpack --mode production",
