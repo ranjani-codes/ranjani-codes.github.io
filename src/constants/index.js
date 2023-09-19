@@ -207,7 +207,8 @@ const testimonials = [
 const projects = [
   {
     name: "Information Retrieval System",
-    description:
+    short_description: "Natural Language Processing Algorithm that aims to optimise customer service requests",
+    long_description:
       "A model that leverages Natural Language Processing and Natural Language Generation techniques to improve customer service by automating responses to queries based on provided documents, reducing manual labor involved in the process.",
     tags: [
       {
@@ -224,11 +225,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ranjani-codes/MortgageMadness",
   },
   {
-    name: "Generating Share-Specific Trading Signals using Policy Iteration",
-    description:
+    name: "Trade Signal Generator",
+    short_description: "Trading bot that generates Trading Signals using Operations Research techniques",
+    long_description:
       "A model that employs a Markov Decision Process (MDP) in combination with Policy Iteration to determine optimal trading signals by analyzing historical data, enabling it to assess whether a given stock is likely to yield profitable returns based on past price trends.",
     tags: [
       {
@@ -245,11 +247,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
   },
   {
-    name: "Artificial Intelligence Based Personal Trainer",
-    description:
+    name: "AI-Based Personal Trainer",
+    short_description: "Reinforcement Learning based Algorithm that learns training patterns and customizes them to match individual user goals",
+    long_description:
       "A machine learning algorithm trained on a vast dataset of training plans designed by coaches for their clients, capable of discerning patterns and generating personalized plans for individual users.",
     tags: [
       {
@@ -266,11 +269,11 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
   },
   {             
     name: "Personal Assistant Chatbot",
-    description:
+    short_description: "An AI-based PA that assists you in planning your days based on your schedule, complete with faec recognition and calendar sync",
+    long_description:
       "A facial recognition-enabled chatbot that utilizes Image and Video Processing for face recognition and Natural Language Processing for interpreting user queries. The system can optimize your schedule by integrating with linked calendars and setting reminders automatically based on the type of event.",
     tags: [
       {
@@ -287,12 +290,13 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ranjani-codes/AI-Personal-Assistant",
   },
 
   {             
     name: "Employee Scheduler",
-    description:
+    short_description: " Python-based algorithm to aid business owners in shift scheduling",
+    long_description:
       "An algorithm that schedules shifts for employees by factoring in individual availability, rank, responsibilities, and employer specifications, with plans to develop a user-friendly interface and offer it as a service to clients.",
     tags: [
       {
@@ -309,11 +313,12 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
   },
   {             
     name: "Movie Recommender System",
-    description:
+    short_description: "A Recommender System that suggests movies to users based on similarities between users and similarities between items",
+    long_description:
       "A Recommender System that employs User-Based Collaborative Filtering and Item-Based Collaborative Filtering approaches to suggest movies to individual users based on their preferences, including previously unseen ones, and also offers group recommendations based on the collective preferences of the members.",
     tags: [
       {
@@ -330,11 +335,12 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ranjani-codes/Movie-Recommender-System",
   },
   {             
     name: "Client Conversion Predictor",
-    description:
+    short_description: "A Machine-Learning model using regression techniques that identifies leads that could convert to clients",
+    long_description:
       "A combination-regression model that uses data on client demographics, usage history, frequency of usage, and other relevant information to predict the likelihood of client conversions and client churn.",
     tags: [
       {
@@ -351,7 +357,6 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
   },
 ];
 
