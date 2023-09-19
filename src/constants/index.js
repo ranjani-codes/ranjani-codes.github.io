@@ -120,7 +120,7 @@ const experiences = [
     company_name: " ",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "May 2023 - Present",
+    date: "April 2023 - Present",
     points: [
       "Developing a full-stack web application with seamless integration of a mobile app, enabling users to access and interact with the platform across multiple devices.",
       "Analyzing and predicting future outcomes using company finance data. Providing actionable recommendations to high-level stakeholders and presenting insights through visualizations.",
@@ -206,9 +206,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Information Retrieval System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A model that leverages Natural Language Processing and Natural Language Generation techniques to improve customer service by automating responses to queries based on provided documents, reducing manual labor involved in the process.",
     tags: [
       {
         name: "react",
@@ -227,9 +227,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Generating Share-Specific Trading Signals using Policy Iteration",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A model that employs a Markov Decision Process (MDP) in combination with Policy Iteration to determine optimal trading signals by analyzing historical data, enabling it to assess whether a given stock is likely to yield profitable returns based on past price trends.",
     tags: [
       {
         name: "react",
@@ -248,9 +248,94 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Artificial Intelligence Based Personal Trainer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A machine learning algorithm trained on a vast dataset of training plans designed by coaches for their clients, capable of discerning patterns and generating personalized plans for individual users.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {             
+    name: "Personal Assistant Chatbot",
+    description:
+      "A facial recognition-enabled chatbot that utilizes Image and Video Processing for face recognition and Natural Language Processing for interpreting user queries. The system can optimize your schedule by integrating with linked calendars and setting reminders automatically based on the type of event.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+
+  {             
+    name: "Employee Scheduler",
+    description:
+      "An algorithm that schedules shifts for employees by factoring in individual availability, rank, responsibilities, and employer specifications, with plans to develop a user-friendly interface and offer it as a service to clients.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {             
+    name: "Movie Recommender System",
+    description:
+      "A Recommender System that employs User-Based Collaborative Filtering and Item-Based Collaborative Filtering approaches to suggest movies to individual users based on their preferences, including previously unseen ones, and also offers group recommendations based on the collective preferences of the members.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {             
+    name: "Client Conversion Predictor",
+    description:
+      "A combination-regression model that uses data on client demographics, usage history, frequency of usage, and other relevant information to predict the likelihood of client conversions and client churn.",
     tags: [
       {
         name: "nextjs",
