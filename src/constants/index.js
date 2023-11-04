@@ -24,18 +24,23 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import { Experience } from "../components";
 
 export const navLinks = [
   {
-    id: "about",
+    id: "About",
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "Experience",
+    title: "Experience"
   },
   {
-    id: "contact",
+    id: "Projects",
+    title: "Projects",
+  },
+  {
+    id: "Contact",
     title: "Contact",
   },
 ];
@@ -116,14 +121,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelancer",
-    company_name: " ",
-    icon: starbucks,
+    title: "Data Scientist Consultant",
+    company_name: "Rhenus Warehousing Solutions",
+    icon: "",
     iconBg: "#383E56",
-    date: "April 2023 - Present",
+    date: "October 2023 - Present",
+    points: [
+      "Conducting thorough stakeholder interviews and in-depth analyses to gain a deep understanding of the logistics processes and business pain points.",
+      "Prototyping machine learning models for potential use in areas such as route optimization, demand forecasting, and inventory management, providing valuable insights into feasibility.",
+      "Developing data visualization prototypes to illustrate the potential impact of machine learning on logistics operations.",
+      "Working closely with internal teams to assess the readiness of existing infrastructure for future machine learning model deployment.",
+    ],
+    tools: [
+      "Tools/Languages Used: : Python, PowerBI, Excel, JIRA, Azure"
+    ]
+  },
+  {
+    title: "Freelance Consultant",
+    company_name: " ",
+    icon: "",
+    iconBg: "#383E56",
+    date: "April 2023 - October 2023",
     points: [
       "Developing a full-stack web application with seamless integration of a mobile app, enabling users to access and interact with the platform across multiple devices.",
-      "Analyzing and predicting future outcomes using company finance data. Providing actionable recommendations to high-level stakeholders and presenting insights through visualizations.",
+      "Analysing and predicting future outcomes using company finance data. Providing actionable recommendations to high-level stakeholders and presenting insights through visualizations.",
     ],
     tools: [
       "Tools/Languages Used: : Python, SQL, PowerBI, HTML, CSS, Javascript, React, Django"
@@ -132,11 +153,11 @@ const experiences = [
   {
     title: "Data Scientist Intern",
     company_name: "Virtuagym BV | Amsterdam, The Netherlands",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: "",
+    iconBg: "#383E56",
     date: "Sep 2022 - Feb 2023",
     points: [
-      "Gain insights on client usage patterns through a data-driven dashboard.",
+      "Gaining insights on client usage patterns through a data-driven dashboard.",
       "Utilising Machine learning and implementing ETL solutions to facilitate cross-functional analysis of usage data and product optimization across departments.",
       "Leveraging data-driven insights through the utilisation of Big Query, Google Analytics, Microsoft Excel, and Amplitude to drive the progress of underdeveloped projects.",
       "Taking charge of a project from end to end using Jira to track the progress.",
@@ -164,10 +185,10 @@ const experiences = [
     title: "Data Scientist Intern",
     company_name: "Obvion | Heerlen, The Netherlands",
     icon: meta,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Sep 2021 - Jan 2022",
     points: [
-      "Assist the employees in answering day-to-day questions by creating an Answer Retrieval (AR) System using BERT in Python.", 
+      "Assisting the employees in answering day-to-day questions by creating an Answer Retrieval (AR) System using BERT in Python.", 
       "Employing methodologies in Information Retrieval, Natural Language Processing, and Natural Language Generation to develop an Augmented Reality System capable of acquiring knowledge from supplied documents.",
       "Engaging with stakeholders to accommodate their evolving needs and demands.",
     ],
