@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Element, animateScroll as scroll, scroller } from 'react-scroll';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
@@ -36,7 +36,20 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <Link to={`#${link.id}`}>{link.title}</Link>
+              <Link
+                to={link.id}
+                spy={true}
+                smooth={true}
+                offset={-70} // Adjust this value to your desired offset
+                duration={500} // Adjust this value for the scroll duration
+                onClick={() => {
+                  setActive(link.title);
+                  setToggle(false);
+                }}
+              >
+                {link.title}
+              </Link>
+
             </li>
           ))}
         </ul>
@@ -54,19 +67,31 @@ const Navbar = () => {
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li
-                  key={link.id}
+                  key={link.title}
                   className={`${
                     active === link.title ? 'text-white' : 'text-secondary'
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(link.title)
+                    setActive(link.id)
                   }}
                 >
-                  <Link to={`#${link.id}`}>{link.title}</Link>
+                  <Link
+                    to={link.id}
+                    spy={true}
+                    smooth={true}
+                    offset={-70} // Adjust this value to your desired offset
+                    duration={500} // Adjust this value for the scroll duration
+                    onClick={() => {
+                      setActive(link.title);
+                      setToggle(false);
+                    }}
+                  >
+                    {link.title}
+                  </Link>
                 </li>
-                )
-                )
+              )
+              )
               }
             </ul>
           </div>
