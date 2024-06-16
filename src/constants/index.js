@@ -129,7 +129,7 @@ const experiences = [
       "Working closely with internal teams to assess the readiness of existing infrastructure for future machine learning model deployment.",
     ],
     tools: [
-      "Tools/Languages Used: : Python, PowerBI, DAX, Excel, JIRA, Azure, Databricks"
+      "Tools/Languages Used: : Python, PowerBI, DAX, Excel, JIRA, Azure, Databricks, TimeXtender"
     ]
   },
   {
