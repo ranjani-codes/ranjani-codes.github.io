@@ -117,7 +117,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Junior BI Specialist - Data Scientist",
+    title: "Junior BI Specialist: Data Scientist",
     company_name: "Rhenus Warehousing Solutions",
     icon: "",
     iconBg: "#383E56",
