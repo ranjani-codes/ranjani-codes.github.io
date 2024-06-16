@@ -118,7 +118,7 @@ const technologies = [
 const experiences = [
   {
     title: "Junior BI Specialist: Data Scientist",
-    company_name: "Rhenus Warehousing Solutions",
+    company_name: "Rhenus Warehousing Solutions | Tilburg, The Netherlands",
     icon: "",
     iconBg: "#383E56",
     date: "October 2023 - Present",
